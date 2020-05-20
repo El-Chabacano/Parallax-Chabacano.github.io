@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100% auto;
+}
+
+
+
+.uno, .dos, .tres{
+    height: 2000px;
+}
+
+.uno{
+    background: rgba(255,255,0,1.00); 
+	background-image: url("../images/d140fcbdf51e8498849cf3b9e6fe4595.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.dos{
+    background: rgba(0,255,255,1.00);
+    background-image: url("../images/digital-art-space-universe-pixels-wallpaper-f23142b0ad06fe2b6a68a21530489922.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.tres{
+    background: rgba(255,0,255,1.00);
+	background: rgba(0,255,255,1.00);
+    background-image: url("../images/cutu.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+
+.personaje{
+    position: fixed;
+    z-index: 1;
+    background-image:url("../images/invazor.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20%;
+    height: 100%;
+    top: 0;
+    left: 40%;
+}
+
+
+
+.info1, .info2, .info3, .info4, .info5, .info6{
+    width: 20%;
+    background: rgba(255,255,255,0.70);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    font-size: 14px;
+}
+
+.info1{
+    position: absolute;
+    top:1200px;
+    left: 15%;
+}
+
+.info2{
+    position: absolute;
+    top:2600px;
+    right: 15%;
+}
+
+.info3{
+    position: absolute;
+    top:3000px;
+    left: 15%;
+}
+
+.info4{
+    position: absolute;
+    top:3400px;
+    right: 15%;
+}
+
+.info5{
+    position: absolute;
+    top:4900px;
+    left: 15%;
+}
+
+.info6{
+    position: absolute;
+    top:6200px;
+    right: 15%;
+}
+
+.iso{
+    width: 0;
+    height: 0;
+    text-indent: -9999px;
+    border-top: 20px solid #FFFFFF;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.isoContenedor{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
